@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>48.0</version>
+    <version>47.0</version>
     <types>
+        <members>A01234567</members>
+        <members>A0123678</members>
+        <members>A012378</members>
         <members>AppCls01</members>
         <members>AppCls02</members>
         <members>ApxCls1</members>
@@ -10,8 +13,49 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>AccountPage</members>
+        <members>Account_Page</members>
+        <members>AnswersHome</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>ContactTrigger1</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>AuraSFDXTest</members>
+        <members>AuraTest2</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>ACCObjTest1__c.Sample_Field__c</members>
+        <members>AR_User_Story__mdt.Grade__c</members>
+        <members>AR_User_Story__mdt.Name__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>lb1</members>
         <members>lb2</members>
         <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>ACCObjTest1__c</members>
+        <members>ARCustomSetting1ListSeetingObj__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>ACCObjTest1__c-ACCObjTest1 Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>ATESTProfile1</members>
+        <members>AdmProfile111</members>
+        <members>AdmProfile222</members>
+        <name>Profile</name>
     </types>
 </Package>
