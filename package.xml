@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>48.0</version>
+    <version>47.0</version>
     <types>
         <members>AppCls01</members>
         <members>AppCls02</members>
@@ -13,5 +13,11 @@
         <members>lb1</members>
         <members>lb2</members>
         <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>PersonAccount.Broker</members>
+        <members>PersonAccount.IR_Person_Account</members>
+        <members>PersonAccount.PersonAccount</members>
+        <name>RecordType</name>
     </types>
 </Package>
